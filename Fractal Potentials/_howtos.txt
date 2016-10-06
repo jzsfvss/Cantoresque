@@ -1,0 +1,6 @@
+savefig('name1','jpeg');
+savefig('name1','pdf');
+
+export_fig tmp -png -transparent -m3;
+
+export_fig ce007_02 -png -transparent -m2

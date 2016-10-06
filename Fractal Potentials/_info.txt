@@ -1,0 +1,23 @@
+IFSdm		Load demo parameters.
+IFS		Returns the IFS iterates of a set S to a certain level N.
+IFSW		Returns the IFS iterates of S to a certain level N along with the weights.
+MatNeiInd	Neighbouring indices in a matrix.
+PsiIFS		Returns the stream IFS iterates of S to a certain level N.
+PsiVor		Calculates the stream function of a vortex.
+SetAxes		Sets the axes to a certain set of complex points in the plane.
+VecIFS		Returns the vector field IFS iterates to a certain level N.
+VecVor		Calculates the velocity vector field of a vortex at certain points.
+EdConj		Calculates the conjugate of a vector of IFS eddy phis.
+
+-------------------------------------------------------------------------------------------
+
+p001		Plot vortex stream lines.
+p002		Plot fractal flow stream lines. Version 1.
+p003		Plot fractal flow stream lines. Version 2.
+p004		Plot fractal flow stream lines. Version 3.
+p005		Plot fractal flow stream lines. Version 4.
+p006		Plot vortex stream lines based on the velocity field.
+p007		Plot fractal flow stream lines. Version 5.
+p008*		Plot fractal flow stream lines. Version 6. High resolution render in parts.
+p009		Plot fractal flow stream lines. Version 7. Based on the measure transform.
+p010		Compare velocity fields in the Euclidean norm and plot the level curves.

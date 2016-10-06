@@ -1,0 +1,53 @@
+IFSdm		Load demo parameters.
+IFS		Returns the IFS iterates of S to a certain level N.
+IFSW		Returns the IFS iterates of S to a certain level N along with the weights.
+IFSA		Returns the IFS iterates of S to a certain level N along with the addresses.
+SetaAxes	Sets the axes to a certain set of complex points in the plane.
+FixedPt		Calculate fixed point with a given address (one/two-row vector format)).
+SetTitRat	Set title for rational angled fractals.
+Adr		Apply an address (seq of maps) to a point.
+AdrB		Apply an address backwards (seq of maps) to a point.
+Circle		Creates circle points for plotting.
+CircleCir	Center and radius of the circumcircle for 2-map IFS.
+CircleGen	Center and radius of the general circle for multi-map IFS (degree N=1).
+Rho		Enclosing circle radius for points p from a fixed center c.
+CDot		Calculates the dot product of two complex numbers.
+CCross		Calculates the magnitude of the cross product of two vectors.
+DimSim		Calculates the similarity dimension of a similude IFS fractal.
+Pitch		Pitch of a log spiral.
+Spi		Spiral absolute value.
+ExtPtsNM	Extremal points numerically (no brainer).
+AdrConv		Converts between the vector and matrix address representations.
+AdrConvStr	Converts address to a string.
+AdrConvStr2	Converts address to a string from 1/2-row format.
+AdrConvDisp	Displays a matrix of addresses as strings.
+SeqPeriod	Determines the period of a sequence.
+AdrCyc		Cyclical permutations of an address.
+ConvHullTol	Convex hull with tolerance.
+ExtPts2		Principal extremal point and address for C-type bifractals (theoretically).
+FCHull2		Convex hull of bifractals (theoretically).
+Arg		Returns the angle of a complex number in (-pi, pi].
+Phi		Returns phi(adr(1))*...*phi(adr(L)) (one/two-row vector format).
+
+---------------------------------------------------------------------------------------
+
+p001	tmp	Tests if min_c max_k |p_k - c| = max_k |p_k - ave(p)|.
+p002		Examine fractal extremal points.
+p003		Plot the fractal flow field.
+p004	tmp	Plot a vortex with iterates.
+p005		Plot a fractal.
+p006	tmp	Plot a 2-map fractal, with the general and the circumcircle.
+p007	tmp	Plot a 2-map fractal, with a spiral and the gen. circle.
+p008	tmp	Convex hull example.
+p009		3-map circumcircle.
+p010		Fractal density plot.
+p011		Convex hull of a bifractal (theoretically).
+p012		Extremal points (numerically).
+p013		Extremal points (theoretically).
+p014		Convex hull (numerically).
+p015	tmp	Plot the  t -> |u + e^ct v|_c  curve.
+p016		Convex hull for bifractals (linear optimization).
+p016b		Convex hull for bifractals (simple rounding).
+p017	tmp	Plot a bifractal with the circumcircle iterated to some level.
+p018	tmp	Sierpinski triangle evolution
+
